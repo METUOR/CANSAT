@@ -7,6 +7,7 @@ import TelemData from "./components/TelemData/TelemData";
 import Map from "./components/Map/Map";
 import LineChart from "./components/LineChart/LineChart";
 import Cube from "./components/Cube/Cube";
+import CsvFile from "./components/CsvFile";
 
 const ENDPOINT_C = "http://127.0.0.1:4848/";
 const ENDPOINT_T = "http://127.0.0.1:5050/";
@@ -83,7 +84,9 @@ function App() {
     <div className="App">
       <div className="sidebar">
         <Button telem={setTelemOnOffHandler}/>
+        <CsvFile></CsvFile>
       </div>
+     
       <div className="functional-elements">
         <div className="card-container">
           <div className="card">

@@ -13,25 +13,19 @@
 }
 
 .cam__input {
+   flex-direction: row;
 	margin-top: 10px;
-    height: 30%;
-    width: 30%;
+    height: 40%;
+    width: 90%;
 }
 
-.app__videoFeed{
-    width: 100%;
-	height: 100%;
-    border-radius: 5px;
-}
 
 .start-stop-button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 10%;
+    
+    margin-left: 5px;
     margin-top: 5px;
-    width: 90%;
-    height: 60%;
+    width: 60;
+    height: 55%;
     border-radius: 5vh;
     border: 2px solid black;
     background-color: #404040;
